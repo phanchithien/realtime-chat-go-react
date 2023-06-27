@@ -25,8 +25,8 @@ class App extends Component {
       <div classname="App">
         <Header />
         <ChatHistory chatHistory={this.state.chatHistory} />
-        <button onClick={this.send}>Hit</button>   
         <ChatInput send={this.send} />  
+        <button onClick={this.send}>Hit</button>  
       </div>
     );
   }
